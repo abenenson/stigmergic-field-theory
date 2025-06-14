@@ -1,0 +1,35 @@
+# Lean/Lake build artifacts
+/build
+/.lake
+/lake-packages
+*.olean
+*.ilean
+*.trace
+
+# Writing artifacts  
+writing/*.pdf
+writing/*.aux
+writing/*.log
+writing/*.toc
+writing/*.synctex.gz
+writing/*.fdb_latexmk
+writing/*.fls
+
+# Documentation builds
+docs/api/_build/
+docs/_site/
+
+# Editor files
+**/.DS_Store
+**/.idea
+**/.vscode
+**/*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*~
